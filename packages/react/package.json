@@ -1,0 +1,61 @@
+{
+  "name": "@terragaming/ads-react",
+  "version": "0.1.0",
+  "description": "React components for TerraGaming Media ads: TgmScript, TgmProvider, TgmAd — Next.js, TanStack Start, Remix.",
+  "keywords": [
+    "ads",
+    "advertising",
+    "publisher",
+    "terragaming"
+  ],
+  "homepage": "https://help.terragamingmedia.com/publishers/install/react/",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/highroll-entertainment/tgm-js.git",
+    "directory": "packages/react"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/index.tsx"
+  },
+  "publishConfig": {
+    "exports": {
+      ".": {
+        "types": "./dist/index.d.ts",
+        "import": "./dist/index.js"
+      }
+    },
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsdown",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@terragaming/ads": "workspace:^"
+  },
+  "devDependencies": {
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "jsdom": "catalog:",
+    "react": "catalog:",
+    "react-dom": "catalog:",
+    "tsdown": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  },
+  "peerDependencies": {
+    "react": ">=18.2"
+  },
+  "bugs": {
+    "url": "https://github.com/highroll-entertainment/tgm-js/issues"
+  }
+}

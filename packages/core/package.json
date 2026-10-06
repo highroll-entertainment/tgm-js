@@ -1,0 +1,51 @@
+{
+  "name": "@terragaming/ads",
+  "version": "0.1.0",
+  "description": "Load the TerraGaming Media ad tag from any JavaScript framework: SSR-safe, idempotent, typed.",
+  "keywords": [
+    "ads",
+    "advertising",
+    "publisher",
+    "terragaming"
+  ],
+  "homepage": "https://help.terragamingmedia.com/publishers/install/other-frameworks/",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/highroll-entertainment/tgm-js.git",
+    "directory": "packages/core"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "publishConfig": {
+    "exports": {
+      ".": {
+        "types": "./dist/index.d.ts",
+        "import": "./dist/index.js"
+      }
+    },
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsdown",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "devDependencies": {
+    "jsdom": "catalog:",
+    "tsdown": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  },
+  "bugs": {
+    "url": "https://github.com/highroll-entertainment/tgm-js/issues"
+  }
+}

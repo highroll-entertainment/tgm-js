@@ -1,0 +1,75 @@
+{
+  "name": "@terragaming/ads-vue",
+  "version": "0.1.0",
+  "description": "Vue and Nuxt integration for TerraGaming Media ads: createTgm, TgmAd and a Nuxt module.",
+  "keywords": [
+    "ads",
+    "advertising",
+    "publisher",
+    "terragaming"
+  ],
+  "homepage": "https://help.terragamingmedia.com/publishers/install/vue/",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/highroll-entertainment/tgm-js.git",
+    "directory": "packages/vue"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/index.ts",
+    "./nuxt": "./src/nuxt.ts"
+  },
+  "publishConfig": {
+    "exports": {
+      ".": {
+        "types": "./dist/index.d.ts",
+        "import": "./dist/index.js"
+      },
+      "./nuxt": {
+        "types": "./dist/nuxt.d.ts",
+        "import": "./dist/nuxt.js"
+      }
+    },
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsdown",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@terragaming/ads": "workspace:^"
+  },
+  "devDependencies": {
+    "@nuxt/kit": "catalog:",
+    "@nuxt/schema": "catalog:",
+    "jsdom": "catalog:",
+    "tsdown": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:",
+    "vue": "catalog:"
+  },
+  "peerDependencies": {
+    "@nuxt/kit": ">=3.13",
+    "@nuxt/schema": ">=3.13",
+    "vue": ">=3.3"
+  },
+  "peerDependenciesMeta": {
+    "@nuxt/kit": {
+      "optional": true
+    },
+    "@nuxt/schema": {
+      "optional": true
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/highroll-entertainment/tgm-js/issues"
+  }
+}
