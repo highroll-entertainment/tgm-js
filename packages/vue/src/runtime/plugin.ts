@@ -2,7 +2,7 @@
  * Nuxt client plugin (registered by the module): loads the site tag once the app has mounted,
  * with `runtimeConfig.public.tgm`. A plain function plugin, so it needs no Nuxt runtime imports.
  */
-import { loadTag, type TgmOptions } from "@terragaming/ads";
+import { loadTag, type TgmOptions } from "@terragamingmedia/ads";
 
 interface NuxtAppLike {
   $config: { public: { tgm?: Partial<TgmOptions> } };

@@ -1,5 +1,5 @@
 {
-  "name": "@terragaming/ads-vue",
+  "name": "@terragamingmedia/ads-vue",
   "version": "0.1.0",
   "description": "Vue and Nuxt integration for TerraGaming Media ads: createTgm, TgmAd and a Nuxt module.",
   "keywords": [
@@ -45,7 +45,7 @@
     "typecheck": "tsc --noEmit -p tsconfig.json"
   },
   "dependencies": {
-    "@terragaming/ads": "workspace:^"
+    "@terragamingmedia/ads": "workspace:^"
   },
   "devDependencies": {
     "@nuxt/kit": "catalog:",

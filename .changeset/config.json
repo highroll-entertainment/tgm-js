@@ -3,7 +3,7 @@
   "changelog": "@changesets/cli/changelog",
   "commit": false,
   "fixed": [],
-  "linked": [["@terragaming/ads", "@terragaming/ads-react", "@terragaming/ads-vue"]],
+  "linked": [["@terragamingmedia/ads", "@terragamingmedia/ads-react", "@terragamingmedia/ads-vue"]],
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",

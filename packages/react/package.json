@@ -1,5 +1,5 @@
 {
-  "name": "@terragaming/ads-react",
+  "name": "@terragamingmedia/ads-react",
   "version": "0.1.0",
   "description": "React components for TerraGaming Media ads: TgmScript, TgmProvider, TgmAd — Next.js, TanStack Start, Remix.",
   "keywords": [
@@ -40,7 +40,7 @@
     "typecheck": "tsc --noEmit -p tsconfig.json"
   },
   "dependencies": {
-    "@terragaming/ads": "workspace:^"
+    "@terragamingmedia/ads": "workspace:^"
   },
   "devDependencies": {
     "@types/react": "catalog:",

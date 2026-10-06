@@ -1,9 +1,9 @@
-# @terragaming/ads-vue
+# @terragamingmedia/ads-vue
 
 [TerraGaming Media](https://terragamingmedia.com) ads for Vue 3 and Nuxt.
 
 ```bash
-npm install @terragaming/ads-vue
+npm install @terragamingmedia/ads-vue
 ```
 
 **Nuxt**
@@ -11,7 +11,7 @@ npm install @terragaming/ads-vue
 ```ts
 // nuxt.config.ts
 export default defineNuxtConfig({
-  modules: ["@terragaming/ads-vue/nuxt"],
+  modules: ["@terragamingmedia/ads-vue/nuxt"],
   tgm: { host: "tgmads.example.com" }, // or NUXT_PUBLIC_TGM_HOST
 });
 ```
@@ -19,7 +19,7 @@ export default defineNuxtConfig({
 **Vue**
 
 ```ts
-import { createTgm } from "@terragaming/ads-vue";
+import { createTgm } from "@terragamingmedia/ads-vue";
 app.use(createTgm({ host: "tgmads.example.com" }));
 ```
 

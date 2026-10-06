@@ -1,5 +1,5 @@
 /**
- * @terragaming/ads-react — TerraGaming Media ads for React, Next.js, TanStack Start and Remix.
+ * @terragamingmedia/ads-react — TerraGaming Media ads for React, Next.js, TanStack Start and Remix.
  *
  * - `<TgmScript host="…" />` in the root layout's `<head>` (server-rendered frameworks), or
  *   `<TgmProvider host="…">` around the app (client-only apps): the site tag, once.
@@ -18,7 +18,7 @@ import {
   type TgmApi,
   type TgmEvent,
   type TgmOptions,
-} from "@terragaming/ads";
+} from "@terragamingmedia/ads";
 import {
   useEffect,
   useRef,
@@ -28,8 +28,8 @@ import {
   type ReactNode,
 } from "react";
 
-export type { TgmApi, TgmEvent, TgmOptions, TgmStatus } from "@terragaming/ads";
-export { getTgm, loadTag, tagScriptAttributes } from "@terragaming/ads";
+export type { TgmApi, TgmEvent, TgmOptions, TgmStatus } from "@terragamingmedia/ads";
+export { getTgm, loadTag, tagScriptAttributes } from "@terragamingmedia/ads";
 
 /**
  * The site tag's `<script>`. React 19 hoists it into `<head>` and renders it once however often it

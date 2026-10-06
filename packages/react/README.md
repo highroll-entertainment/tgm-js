@@ -1,18 +1,18 @@
-# @terragaming/ads-react
+# @terragamingmedia/ads-react
 
 [TerraGaming Media](https://terragamingmedia.com) ads for React, Next.js, TanStack Start and Remix.
 
 ```bash
-npm install @terragaming/ads-react
+npm install @terragamingmedia/ads-react
 ```
 
 ```tsx
 // Root layout (<head>): the site tag, once
-import { TgmScript } from "@terragaming/ads-react";
+import { TgmScript } from "@terragamingmedia/ads-react";
 <TgmScript host="tgmads.example.com" />;
 
 // Anywhere an ad goes
-import { TgmAd, TgmFloating } from "@terragaming/ads-react";
+import { TgmAd, TgmFloating } from "@terragamingmedia/ads-react";
 <TgmAd unit="TGM-ABC-HRS01" />;
 <TgmFloating unit="TGM-ABC-GMA01" />;
 ```

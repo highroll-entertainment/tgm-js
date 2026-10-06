@@ -1,16 +1,16 @@
-# @terragaming/ads
+# @terragamingmedia/ads
 
 Load the [TerraGaming Media](https://terragamingmedia.com) ad tag from any JavaScript framework.
 It is SSR-safe and idempotent, and ships its own types. For React and Vue, use
-[`@terragaming/ads-react`](https://www.npmjs.com/package/@terragaming/ads-react) or
-[`@terragaming/ads-vue`](https://www.npmjs.com/package/@terragaming/ads-vue).
+[`@terragamingmedia/ads-react`](https://www.npmjs.com/package/@terragamingmedia/ads-react) or
+[`@terragamingmedia/ads-vue`](https://www.npmjs.com/package/@terragamingmedia/ads-vue).
 
 ```bash
-npm install @terragaming/ads
+npm install @terragamingmedia/ads
 ```
 
 ```ts
-import { loadTag } from "@terragaming/ads";
+import { loadTag } from "@terragamingmedia/ads";
 
 // In the browser, once (repeated calls return the same tag; null on the server):
 const tgm = await loadTag({ host: "tgmads.example.com" });

@@ -1,5 +1,5 @@
 /**
- * `@terragaming/ads`: the framework-agnostic loader.
+ * `@terragamingmedia/ads`: the framework-agnostic loader.
  * - `tagScriptAttributes()`: the site tag's `<script>` attributes — `src` on the host, the
  *   property's `data-tgm-*` attributes only when given (the shared CDN host needs them; the
  *   publisher's own host supplies them), `nonce`; the host is a bare hostname;

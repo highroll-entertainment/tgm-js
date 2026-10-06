@@ -2,7 +2,7 @@ name: Release
 
 # Changesets opens a "Version Packages" PR; merging it publishes to npm with trusted publishing
 # (OIDC, no stored token) and provenance. Before the first release: create the npm org for the
-# @terragaming scope, add this repository and workflow as a trusted publisher for each package,
+# @terragamingmedia scope (org "terragamingmedia"), add this repository and workflow as a trusted publisher for each package,
 # then set the repository variable NPM_RELEASES_ENABLED=true.
 
 on:

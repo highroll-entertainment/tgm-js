@@ -1,7 +1,7 @@
 {
   "name": "tgm-js",
   "private": true,
-  "description": "TerraGaming Media JavaScript SDKs: @terragaming/ads, @terragaming/ads-react, @terragaming/ads-vue.",
+  "description": "TerraGaming Media JavaScript SDKs: @terragamingmedia/ads, @terragamingmedia/ads-react, @terragamingmedia/ads-vue.",
   "license": "MIT",
   "type": "module",
   "packageManager": "pnpm@11.24.0",

@@ -68,7 +68,7 @@ importers:
 
   packages/react:
     dependencies:
-      '@terragaming/ads':
+      '@terragamingmedia/ads':
         specifier: workspace:^
         version: link:../core
     devDependencies:
@@ -99,7 +99,7 @@ importers:
 
   packages/vue:
     dependencies:
-      '@terragaming/ads':
+      '@terragamingmedia/ads':
         specifier: workspace:^
         version: link:../core
     devDependencies:

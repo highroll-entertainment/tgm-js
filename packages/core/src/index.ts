@@ -1,5 +1,5 @@
 /**
- * @terragaming/ads — load the TerraGaming Media ad tag from any JavaScript framework.
+ * @terragamingmedia/ads — load the TerraGaming Media ad tag from any JavaScript framework.
  *
  * The tag is the site tag `<script async src="https://<host>/tag.js">`: once per page, however many
  * ad units. On the publisher's verified host (`tgmads.<domain>`) the host is all it needs; on the

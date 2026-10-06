@@ -1,5 +1,5 @@
 /**
- * @terragaming/ads-vue — TerraGaming Media ads for Vue 3 (and Nuxt via `@terragaming/ads-vue/nuxt`).
+ * @terragamingmedia/ads-vue — TerraGaming Media ads for Vue 3 (and Nuxt via `@terragamingmedia/ads-vue/nuxt`).
  *
  * - `app.use(createTgm({ host: "tgmads.<domain>" }))`: loads the site tag once, after the app
  *   mounted (so server-rendered markup hydrates before the tag touches the page).
@@ -9,11 +9,11 @@
  *
  * Guide: https://help.terragamingmedia.com/publishers/install/vue/
  */
-import { getTgm, loadTag, tgm, type TgmOptions, type TgmStatus } from "@terragaming/ads";
+import { getTgm, loadTag, tgm, type TgmOptions, type TgmStatus } from "@terragamingmedia/ads";
 import { defineComponent, h, onMounted, ref, type App, type Component, type Plugin } from "vue";
 
-export type { TgmApi, TgmEvent, TgmOptions, TgmStatus } from "@terragaming/ads";
-export { getTgm, loadTag, tagScriptAttributes } from "@terragaming/ads";
+export type { TgmApi, TgmEvent, TgmOptions, TgmStatus } from "@terragamingmedia/ads";
+export { getTgm, loadTag, tagScriptAttributes } from "@terragamingmedia/ads";
 
 /** The Vue plugin: loads the site tag once the app has mounted. */
 export function createTgm(opts: TgmOptions): Plugin {

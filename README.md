@@ -5,9 +5,9 @@ JavaScript framework.
 
 | Package | For | |
 | --- | --- | --- |
-| [`@terragaming/ads`](packages/core) | Any framework (Angular, Svelte, Astro, plain JS) | `loadTag()`, typed `window.tgm` |
-| [`@terragaming/ads-react`](packages/react) | React, Next.js, TanStack Start, Remix | `<TgmScript>`, `<TgmProvider>`, `<TgmAd>`, hooks |
-| [`@terragaming/ads-vue`](packages/vue) | Vue 3, Nuxt | `createTgm()`, `<TgmAd>`, Nuxt module |
+| [`@terragamingmedia/ads`](packages/core) | Any framework (Angular, Svelte, Astro, plain JS) | `loadTag()`, typed `window.tgm` |
+| [`@terragamingmedia/ads-react`](packages/react) | React, Next.js, TanStack Start, Remix | `<TgmScript>`, `<TgmProvider>`, `<TgmAd>`, hooks |
+| [`@terragamingmedia/ads-vue`](packages/vue) | Vue 3, Nuxt | `createTgm()`, `<TgmAd>`, Nuxt module |
 
 How it works: the **site tag** (`<script async src="https://tgmads.<your domain>/tag.js">`) goes on
 every page once, and each **ad unit** is a placement (`<div data-tgm-unit="TGM-…">`, or `<TgmAd>`).

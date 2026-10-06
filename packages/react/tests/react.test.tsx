@@ -1,5 +1,5 @@
 /**
- * `@terragaming/ads-react`:
+ * `@terragamingmedia/ads-react`:
  * - `<TgmAd>` renders nothing the tag fills on the server; the `data-tgm-unit` container mounts
  *   after hydration, so the tag's iframes never meet React's hydration (no warnings);
  * - StrictMode mounts one container; unmounting removes it (the tag tears its ad down);

@@ -1,5 +1,5 @@
 /**
- * `@terragaming/ads-vue`:
+ * `@terragamingmedia/ads-vue`:
  * - `<TgmAd>` renders no unit container on the server; it mounts after hydration without
  *   mismatch warnings, and unmounting removes it;
  * - `createTgm()` loads the tag once, after the app has mounted (never before hydration);
@@ -87,6 +87,6 @@ describe("createTgm", () => {
 describe("the Nuxt module", () => {
   it("is configured under `tgm`", async () => {
     const meta = await nuxtModule.getMeta?.();
-    expect(meta).toMatchObject({ name: "@terragaming/ads-vue", configKey: "tgm" });
+    expect(meta).toMatchObject({ name: "@terragamingmedia/ads-vue", configKey: "tgm" });
   });
 });
