@@ -1,6 +1,6 @@
 {
   "name": "@terragamingmedia/ads",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Load the TerraGaming Media ad tag from any JavaScript framework: SSR-safe, idempotent, typed.",
   "keywords": [
     "ads",
