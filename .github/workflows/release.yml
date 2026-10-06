@@ -31,6 +31,9 @@ jobs:
           node-version: 24
           cache: pnpm
           registry-url: https://registry.npmjs.org
+      # npm's trusted publishing with allowed actions (stage / publish) needs a current npm CLI;
+      # the one bundled with Node lags behind.
+      - run: npm install -g npm@latest && npm --version
       - run: pnpm install --frozen-lockfile
       - run: pnpm build && pnpm typecheck && pnpm test
       - name: Version PR or publish
